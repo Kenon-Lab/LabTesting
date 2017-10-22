@@ -1,0 +1,345 @@
+[
+  {
+    "entity": "user",
+    "firstName": "Kali",
+    "lastName": "Chaudhary",
+    "password": "bb44bd1a8660e15fef28c29ec64624c6279a771cac86a7438d1bb6509cc81221",
+    "email": "kali.chaudhary@seattleapplab.com",
+    "phone": "",
+    "isStakeholder": true,
+    "isCounselor": true,
+    "isBillingContact": false,
+    "isTechnicalContact": false,
+    "isSuperAdmin": false,
+    "isOwner": true,
+    "profileImage": "https://ckaccountimages.blob.core.windows.net/ckimage/823228f7-b6cd-6bc9-83e6-3da80fe0d984",
+    "agreedTerms": true,
+    "isActivated": true,
+    "status": true,
+    "customerId": "be48875c-cb97-d689-1715-98b22166e294",
+    "title": "Mr.",
+    "id": "823228f7-b6cd-6bc9-83e6-3da80fe0d984",
+    "createdBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "createdAt": "2016-06-10T09:56:03.260Z", // ISO 8601 format date
+    "modifiedBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "modifiedAt": "2016-06-10T09:56:03.260Z",
+    "deleted": false
+  },
+  {
+    "entity": "customer",
+    "schoolId": "sch.US.en.127565",
+    "customerId": "127565",
+    "discoverId": "b91fd7d9-9760-e75b-835e-9ce05b06df47",
+    "taxId": "",
+    "nonProfit": false,
+    "type": "",
+    "legalName": "test",
+    "billingPhone": "",
+    "street": "",
+    "city": "",
+    "stateProvince": "",
+    "postalCode": "",
+    "country": "",
+    "webURL": "",
+    "logo": "",
+    "isDeActivated": "false",
+    "isSuspended": "false",
+    //subsciption list from chargebee
+    "subscriptions": [
+      {
+        "subscription": {
+          "id": "KyVmwPPqxansP2S",
+          "customer_id": "8avVGOkx8U1MX",
+          "plan_id": "basic",
+          "plan_quantity": 1,
+          "status": "in_trial",
+          "trial_start": 1468525372,
+          "trial_end": 1471203772,
+          "created_at": 1468525372,
+          "started_at": 1468525372,
+          "has_scheduled_changes": false,
+          "object": "subscription",
+          "currency_code": "USD",
+          "due_invoices_count": 0
+        },
+        "customer": {
+          "id": "8avVGOkx8U1MX",
+          "first_name": "Benjamin",
+          "last_name": "Ross",
+          "email": "Benjamin@test.com",
+          "auto_collection": "on",
+          "allow_direct_debit": false,
+          "created_at": 1412101835,
+          "taxability": "taxable",
+          "object": "customer",
+          "card_status": "valid",
+          "contacts": [
+            {
+              "id": "d334f4g45",
+              "first_name": "aasca",
+              "last_name": "asas",
+              "email": "sss@wss.asc",
+              "label": "ascasc",
+              "enabled": true,
+              "send_account_email": true,
+              "send_billing_email": false,
+              "object": "contact"
+            }
+          ],
+          "payment_method": {
+            "object": "payment_method",
+            "type": "card",
+            "reference_id": "tok_KyVmypPqxaEF91",
+            "gateway": "chargebee",
+            "status": "valid"
+          },
+          "promotional_credits": 0,
+          "refundable_credits": 0,
+          "excess_payments": 0
+        },
+        "card": {
+          "customer_id": "8avVGOkx8U1MX",
+          "status": "valid",
+          "gateway": "chargebee",
+          "iin": "411111",
+          "last4": "1111",
+          "card_type": "visa",
+          "expiry_month": 1,
+          "expiry_year": 2022,
+          "object": "card",
+          "masked_number": "************1111"
+        }
+      }
+    ],
+    // data provided by chargebee on newly subscription
+    "paymentDetail": {
+      "subscription": {
+        "id": "1sjs9i7Ps25Br4LkU",
+        "customer_id": "1sjs9i7Ps25Br4LkU",
+        "plan_id": "higher-autorenewal-3k-yearly",
+        "plan_quantity": 1,
+        "status": "active",
+        "current_term_start": "2016-06-10T09:56:03.260Z",
+        "current_term_end": "2016-06-10T09:56:03.260Z",
+        "created_at": "2016-06-10T09:56:03.260Z",
+        "started_at": "2016-06-10T09:56:03.260Z",
+        "activated_at": "2016-06-10T09:56:03.260Z",
+        "affiliate_token": "oCePrBhKIp7tBvXKI6M8ykVNQDYsJiG8",
+        "created_from_ip": "202.166.206.8",
+        "has_scheduled_changes": false,
+        "object": "subscription",
+        "currency_code": "USD",
+        "due_invoices_count": 0
+      },
+      "customer": {
+        "id": "1sjs9i7Ps25Br4LkU",
+        "first_name": "pes",
+        "last_name": "b",
+        "email": "p@yopmail.com",
+        "auto_collection": "on",
+        "allow_direct_debit": false,
+        "created_at": 1469507905,
+        "created_from_ip": "202.166.206.8",
+        "taxability": "taxable",
+        "object": "customer",
+        "billing_address": {
+          "first_name": "p",
+          "last_name": "p",
+          "line1": "p",
+          "city": "p",
+          "state": "p",
+          "country": "NP",
+          "zip": "234",
+          "object": "billing_address"
+        },
+        "card_status": "valid",
+        "payment_method": {
+          "object": "payment_method",
+          "type": "card",
+          "reference_id": "tok_1sjs9i7Ps25PfJLlk",
+          "gateway": "chargebee",
+          "status": "valid"
+        },
+        "promotional_credits": 0,
+        "refundable_credits": 0,
+        "excess_payments": 0
+      },
+      "card": {
+        "customer_id": "1sjs9i7Ps25Br4LkU",
+        "status": "valid",
+        "gateway": "chargebee",
+        "first_name": "p",
+        "last_name": "p",
+        "iin": "411111",
+        "last4": "1111",
+        "card_type": "visa",
+        "expiry_month": 12,
+        "expiry_year": 2017,
+        "billing_country": "NP",
+        "ip_address": "202.166.206.8",
+        "object": "card",
+        "masked_number": "************1111"
+      },
+      "invoices":{
+        "id": "5",
+        "customer_id": "1sjs9i7Ps25Br4LkU",
+        "subscription_id": "1sjs9i7Ps25Br4LkU",
+        "recurring": true,
+        "status": "paid",
+        "price_type": "tax_exclusive",
+        "date": "2016-06-10T09:56:03.260Z",
+        "total": 1500000,
+        "amount_paid": 1500000,
+        "amount_adjusted": 0,
+        "write_off_amount": 0,
+        "credits_applied": 0,
+        "amount_due": 0,
+        "paid_at": "2016-06-10T09:56:03.260Z",
+        "object": "invoice",
+        "first_invoice": true,
+        "currency_code": "USD",
+        "tax": 0,
+        "line_items": [
+          {
+            "id": "li_1sjs9i7Ps25PffLlm",
+            "date_from": "2016-06-10T09:56:03.260Z",
+            "date_to": "2016-06-10T09:56:03.260Z",
+            "unit_amount": 1500000,
+            "quantity": 1,
+            "is_taxed": false,
+            "tax_amount": 0,
+            "object": "line_item",
+            "amount": 1500000,
+            "description": "Higher_AutoRenewal_3K_Yearly",
+            "entity_type": "plan",
+            "entity_id": "higher-autorenewal-3k-yearly",
+            "discount_amount": 0,
+            "item_level_discount_amount": 0
+          }
+        ],
+        "sub_total": 1500000,
+        "linked_payments": [
+          {
+            "txn_id": "txn_1sjs9i7Ps25Pg0Lln",
+            "applied_amount": 1500000,
+            "applied_at": 1469507905,
+            "txn_status": "success",
+            "txn_date": 1469507905,
+            "txn_amount": 1500000
+          }
+        ],
+        "applied_credits": [],
+        "adjustment_credit_notes": [],
+        "issued_credit_notes": [],
+        "linked_orders": [],
+        "billing_address": {
+          "first_name": "p",
+          "last_name": "p",
+          "line1": "p",
+          "city": "p",
+          "state": "p",
+          "country": "NP",
+          "zip": "234",
+          "object": "billing_address"
+        }
+      }
+    },
+    "id": "be48875c-cb97-d689-1715-98b22166e294",
+    "profileImage": "https://ckaccountimages.blob.core.windows.net/ckimage/be48875c-cb97-d689-1715-98b22166e294",
+    "createdBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "createdAt": "2016-06-10T09:56:03.260Z", // ISO 8601 format date
+    "modifiedBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "modifiedAt": "2016-06-10T09:56:03.260Z",
+    "collegeMajor": "all"
+  },
+  {
+    "entity": "invitation",
+    "email": "testing2016@yopmail.com",
+    "message": "",
+    "customerId": "be48875c-cb97-d689-1715-98b22166e294",
+    "roles": [
+      {
+        "id": 4,
+        "role": "technical",
+        "value": "Technical contact:access URL and technical input."
+      }
+    ],
+    "createdBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "createdAt": "2016-06-10T09:56:03.260Z",
+    "id": "19c7b54d-1951-278c-0e30-74150cde6fa6"
+  },
+  {
+    "userId": "b91fd7d9-9760-e75b-835e-9ce05b06df47",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0ZWREYXRhIjp7ImVudGl0eSI6InVzZXIiLCJmaXJzdE5hbWUiOiJOYXJlbiIsImxhc3ROYW1lIjoiTWFoYXJqYW4iLCJlbWFpbCI6Im5hcmVuZHJhLm1haGFyamFuQHNlYXR0bGVhcHBsYWIuY29tIiwicGhvbmUiOiIiLCJpc1N0YWtlaG9sZGVyIjp0cnVlLCJpc0NvdW5zZWxvciI6dHJ1ZSwiaXNCaWxsaW5nQ29udGFjdCI6ZmFsc2UsImlzVGVjaG5pY2FsQ29udGFjdCI6ZmFsc2UsImlzU3VwZXJBZG1pbiI6ZmFsc2UsImlzT3duZXIiOnRydWUsInByb2ZpbGVJbWFnZSI6Imh0dHBzOi8vY2thY2NvdW50aW1hZ2VzLmJsb2IuY29yZS53aW5kb3dzLm5ldC9ja2ltYWdlLzgyMzIyOGY3LWI2Y2QtNmJjOS04M2U2LTNkYTgwZmUwZDk4NCIsImFncmVlZFRlcm1zIjp0cnVlLCJpc0FjdGl2YXRlZCI6dHJ1ZSwic3RhdHVzIjp0cnVlLCJvcmdhbml6YXRpb25JZCI6ImNkMjNhZTNjLTE0OTAtMDBkMC02YmQxLWMxN2U2Nzg0YzA4ZSIsInRpdGxlIjoiTXIuYnJvIiwiaWQiOiJiOTFmZDdkOS05NzYwLWU3NWItODM1ZS05Y2UwNWIwNmRmNDciLCJjcmVhdGVkQXQiOiIyMDE2MDcwMyIsIm1vZGlmaWVkQXQiOjE0NjgyMzAwMjc0NjksIl9yaWQiOiJXWFV1QU9xTVhBSHdCQUFBQUFBQUFBPT0iLCJfc2VsZiI6ImRicy9XWFV1QUE9PS9jb2xscy9XWFV1QU9xTVhBRT0vZG9jcy9XWFV1QU9xTVhBSHdCQUFBQUFBQUFBPT0vIiwiX2V0YWciOiJcIjAwMDBmZDFiLTAwMDAtMDAwMC0wMDAwLTU3ODM2OTg2MDAwMFwiIiwiX2F0dGFjaG1lbnRzIjoiYXR0YWNobWVudHMvIiwiX3RzIjoxNDY4MjMwMDEyLCJyb2xlcyI6WyJvd25lciIsImNvdW5zZWxvciIsInN0YWtlaG9sZGVyIl0sImlzQXV0aGVudGljYXRlZCI6dHJ1ZX0sImlhdCI6MTQ2ODIzMDAyNywiZXhwIjoxNDY4MzE2NDI3fQ.YVHbG87OMYTbW2tJnqL3XPT0e_M1TgWLY1-2XwBW0XA",
+    "entity": "token",
+    "createdBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "createdAt": "2016-06-10T09:56:03.260Z",
+    "id": "23bf8697-84f6-4f8e-2f06-9eddc15f0c26"
+  },
+  // outbound messages are stored in Mandrill.  Why do we need them here?
+  {
+    "fromName": "Bikash Burma",
+    "fromEmail": "bikashburma50@gmail.com",
+    "fromImage": "",
+    "to": [
+      {
+        "email": "testing123@yopmail.com",
+        "name": "",
+        "type": "to"
+      },
+      {
+        "email": "testing1231@yopmail.com",
+        "name": "",
+        "type": "to"
+      },
+      {
+        "email": "bikash.burma@seattleapplab.com",
+        "name": "",
+        "type": "to"
+      },
+      {
+        "email": "testing1232@yopmail.com",
+        "name": "",
+        "type": "to"
+      }
+    ],
+    "messageSubject": "Reminder to start - assessment",
+    "messageBody": "<p class=\"MsoNormal\">Hi There,&nbsp;</p><p class=\"MsoNormal\">It has been a long time since you completed the application process by creating an account in our Application Portal. We were wondering if this is the right time to start the assessment.&nbsp;</p><p class=\"MsoNormal\">Start Assessment now [button]</p><p class=\"MsoNormal\">Need help? Click here&nbsp;</p><p class=\"MsoNormal\">Note: </p><p class=\"MsoNormal\">Kindly note that the assessment link is valid for only 10 days starting from the date that you received the assessment link&nbsp;</p><p class=\"MsoNormal\">Cheers,</p><p class=\"MsoNormal\">Career Key</p>",
+    "customerId": "efb5cfbc-d4d9-b062-1666-4b69be865db1",
+    "entity": "message",
+    "createdBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "createdAt": "2016-06-10T09:56:03.260Z",
+    "id": "47484acf-cb13-3f22-416e-e95cc6e1e98b"
+  },
+  {
+    "name": "Dr.John 2019 Batch",
+    "customerId": "be48875c-cb97-d689-1715-98b22166e294",
+    "entity": "group",
+    "counselor":[],
+    "owner":[],
+    "stakeholder":[],
+    "createdBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "createdAt": "2016-06-10T09:56:03.260Z",
+    "modifiedBy": "462dc460-5273-11e6-bdf4-0800200c9a66",
+    "modifiedAt": "2016-06-10T09:56:03.260Z",
+    "id": "e402826b-b034-79d9-81e5-903707ed5193"
+  },
+  {
+    "first": "johnkris",
+    "last": "joshi",
+    "email": "krishna@test.com",
+    "phone": 1234567890,
+    "dob": "12/12/2000",
+    "groupId": [
+      "45c963e2-6ecf-71c9-31f0-35ac2861ce45",
+      "103e8da0-6d27-169c-02e8-bf9d7dad8e38"
+    ],
+    "schoolId": "sch.US.en.127565",
+    "customerId": "127565",
+    "entity": "dis",
+    "createdAt": "2016-06-10T09:56:03.260Z",
+    "id": "40709d3d-fd5b-db00-2313-d10460f09002",
+    "lastContactDate": "2016-06-10T09:56:03.260Z",
+    "modifiedAt": "2016-06-10T09:56:03.260Z"
+  }
+]
